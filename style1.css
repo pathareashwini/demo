@@ -1,0 +1,305 @@
+.mainContainer
+{
+	width:100%;
+	height:100vh;
+    
+}
+.header
+{
+    width: 100%;
+    height:80px;
+    background-color:#000000;
+    color:#ffffff;
+    padding: 20px;
+    position:relative;
+}
+
+.hleft
+{
+    width:400px;
+    height:40px;
+    color: white;
+    position: absolute;
+    left: 5px;
+    top:20px;
+
+
+
+}
+
+.hmiddle
+{
+
+    width: 700px;
+    height: 40px;
+    color: white;
+    position:absolute;
+    left:400px;
+    padding: 5px;
+}
+
+.hright
+{
+    width:200px;
+    height:40px;
+    color:white;
+    position: absolute;
+    left:1200px;
+    top:20px;     
+}
+
+.navSection
+{
+    background-color: white;
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    
+
+}
+
+.logo
+{
+    width: 10%;
+    height:40px;
+    position:absolute;
+    background-image: url("logo.png");
+    background-size: 100% 100%;
+    left: 10px;
+    top:10px;
+    padding: 5px;    
+
+}
+
+.navbar
+{
+    width:60%;
+    height: 40px;
+    position:relative;
+    left:13%;
+    top: 20px;
+    padding:5px;
+    text-transform:uppercase;
+}
+
+.navbar ul
+{
+    list-style-type: none;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    bottom: 5px;
+}
+
+.navbar ul li
+{
+    display: inline;
+    padding: 10px;
+}
+
+
+.navbar ul li a
+{
+    text-decoration:none;
+    font-size: 18px;
+    color: black;
+    transition: all.3s;
+}
+
+.navbar ul li a:hover
+{
+    background-color: black;
+    color: white;
+    padding:10px;
+    border-radius:5px;
+
+}
+
+
+.active
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.quote
+{
+    width:10%;
+    color: white;
+    position: absolute;
+    left: 80%;
+    top:10px;
+    padding:20px;
+}
+
+.quoteBtn
+{
+    width: 90%;
+    height: 20px;
+    border: radius 5px; 
+    position: relative;
+    background-color: orange;
+    color: white;
+    border: 2px solid brown;
+}
+
+
+.heroBanner
+{
+    width: 100%;
+    height: 70vh;
+    background-image:url("slider-bg.jpg");
+    background-size:cover;
+    background-position: center;
+
+}
+
+.serviceContainer
+{
+    width: 98%;
+    height: 60vh;
+    position:relative;
+    top: 40px;
+     box-shadow:0px 0px 30px gray;
+
+}
+
+.serviceContainer .para
+{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+
+}
+
+.serviceContainer .cservprop
+{
+    position: absolute;
+    top: 140px;
+    width:22% ;
+    height: 40vh;
+
+}
+
+.serviceContainer .fservice
+{
+    left: 20px;
+
+}
+
+
+.serviceContainer .fservice div
+{
+
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top:0px;
+    left:25%;
+    background-image:url("s1.png");
+    background-size: cover;
+    background-position:center;
+}
+
+
+.serviceContainer .sservice
+{
+    left: 320px;
+}
+
+.serviceContainer .sservice div
+{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top:0px;
+    left:25%;
+    background-image: url("s2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.serviceContainer .tservice
+{
+    left: 620px;
+
+}
+
+.serviceContainer .tservice div
+{
+    width: 80px;
+    height: 80px;
+    position:absolute;
+    top:0px;
+    left:25%;
+    background-image:url("s3.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.serviceContainer .fthservice
+{
+    left: 920px;
+
+}
+
+.serviceContainer .fthservice div
+{
+    width: 80px;
+    height: 80px;
+    position:absolute;
+    top:0px;
+    left:25%;
+    background-image:url("s4.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.serviceContainer .fservice p
+{
+
+        position:absolute;
+        top:120px;
+        left:50px;
+}
+
+.serviceContainer .sservice p
+{
+
+        position:absolute;
+        top:120px;
+        left:50px;
+}
+
+.serviceContainer .tservice p
+{
+
+        position:absolute;
+        top:120px;
+        left:50px;
+}
+
+.serviceContainer .fthservice p
+{
+
+        position:absolute;
+        top:120px;
+        left:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
